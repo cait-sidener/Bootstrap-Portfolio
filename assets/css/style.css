@@ -135,7 +135,7 @@ h1, h2 {
     height: 92px;
     line-height:2px;
     overflow: hidden;
-    padding: 20px;
+    padding: 10px;
     position: relative;
     text-align: center;
 }
@@ -187,7 +187,6 @@ p {
     width:225px;
 }
 .navbar {
-    background-color: #fff;
     flex-grow:1;
 }
 
@@ -205,7 +204,29 @@ p {
     position: relative;
 }
 
+.navi {
+    background-color: #fff;
+}
+
 #submit {
     background-color: #4aaaa5;
     border-radius:0px;
 }
+
+@media screen and (max-width: 980px) {
+    .box-2 {
+        float:left;
+        margin-left: 75px;
+    }
+
+@media screen and (max-width: 768px) {
+    .box-2 {
+        float:left;
+        margin-left: 75px;
+    }
+
+@media screen and (max-width: 640px) {
+    .box-2 {
+        float:left;
+        margin-left: 75px;
+    }
