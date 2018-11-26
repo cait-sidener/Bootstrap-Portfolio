@@ -101,11 +101,16 @@ margin-right: 25px;
     border-radius: 0px;
 }
 
-.footer,
-.push {
+footer {
     align-self:flex-end;
     background-color: #666;
+    border-top: #4aaaa5 5px solid;
+    bottom:0;
+    color: #fff;
     height:25px;
+    position:fixed;
+    text-align: center;
+    width:100%
 }
 
 h1, h2 {
