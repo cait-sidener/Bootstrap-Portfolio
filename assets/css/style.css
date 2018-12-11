@@ -68,7 +68,7 @@ margin-right: 25px;
 /*the white box around content for all pages*/
 .container--content {
     background-color: #fee8e1;
-    border: 1px solid #ca8c78;
+    border: 1px solid #fc784b;
     margin: 30px auto;
     /* width:960px; */
 }
@@ -97,7 +97,7 @@ margin-right: 25px;
 
 footer {
     align-self:flex-end;
-    background-color: #ca8c78;
+    background-color: #fdb7a0;
     border-top: #fc784b 5px solid;
     bottom:0;
     height:25px;
@@ -113,7 +113,7 @@ h1, h2 {
 /*white box around header */
 .header {
     background-color: #f8f9fa;
-    border: 1px solid #ca8c78;
+    /* border: 1px solid #fc784b; */
     height:93px;
     position:relative;
     width:100%;
