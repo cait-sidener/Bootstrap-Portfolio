@@ -8,6 +8,7 @@ a {
 }
 
 body {
+    background-clip: url("https://giphy.com/gifs/l3q2QZ5EYsVPYu45a/html5");
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin:0;
     padding:0;
@@ -22,14 +23,14 @@ body {
 
 /* relative positioning in portfolio */
 .box-1 {
-    background-image: url("../images/placeimg_640_480_animals (2).jpg");
+    background-image: url("../images/Hangman.png");
     margin-left:75px;
 }
 
 
 /* relative positioning in portfolio */
 .box-2 {
-    background-image: url("../images/placeimg_640_480_animals (1).jpg");
+    background-image: url("../images/CrystalsCollector.png");
     /* left:275px;
     top:-216px; */
 }
@@ -67,7 +68,7 @@ margin-right: 25px;
 
 /*the white box around content for all pages*/
 .container--content {
-    background-color: #ffffff;
+    background-color: #f8f9fa;
     border: 1px solid #dddddd;
     margin: 30px auto;
     /* width:960px; */
@@ -82,7 +83,7 @@ margin-right: 25px;
     /* border-collapse: separate; */
     border-bottom: 2px solid #dddddd;
     border-spacing:15px 50px;
-    color:#4aaaa5;
+    color:#b2da20;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-bottom: 30px;
     margin-left:25px;
@@ -104,9 +105,9 @@ margin-right: 25px;
 footer {
     align-self:flex-end;
     background-color: #666;
-    border-top: #4aaaa5 5px solid;
+    border-top: #b2da20 5px solid;
     bottom:0;
-    color: #fff;
+    color: #f8f9fa;
     height:25px;
     position:fixed;
     text-align: center;
@@ -119,9 +120,8 @@ h1, h2 {
 
 /*white box around header */
 .header {
-    background-color: #ffffff;
+    background-color: #f8f9fa;
     border: 1px solid #dddddd;
-    background-color: #fff;
     height:93px;
     position:relative;
     width:100%;
@@ -133,8 +133,8 @@ h1, h2 {
 
 /*my name on each page*/
 .header-title {
-    background-color: #4aaaa5;
-    color: #ffffff;
+    background-color: #FDB096;
+    color: #f8f9fa;
     display: block;
     font-family: 'Georgia', Times, Times New Roman, serif;
     height: 92px;
@@ -179,9 +179,9 @@ p {
 
 /* portfolio word boxes */
 .projects {
-    background-color:#4aaaa5;
+    background-color:#DAA520;
     background-position: center;
-    color: #ffffff;
+    color: #f8f9fa;
     font-size:17px;
     font-family: 'Georgia', Times, Times New Roman, serif;    
     height:40px;
@@ -209,12 +209,8 @@ p {
     position: relative;
 }
 
-.navi {
-    background-color: #fff;
-}
-
 #submit {
-    background-color: #4aaaa5;
+    background-color: #FDB096;
     border-radius:0px;
 }
 
