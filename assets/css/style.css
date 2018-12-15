@@ -2,13 +2,13 @@
 a {
     color: #b17b69;
     display: block;
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Peralta', cursive;
     font-size: 80%;
     text-decoration: none;
 }
 
 body {
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Peralta', cursive;
     /* margin:0;
     padding:0; */
 }
@@ -83,8 +83,8 @@ margin-right: 25px;
     border-bottom: 2px solid #fc784b;
     border-spacing:15px 50px;
     color:#fc784b;
-    font-family: 'Cabin Sketch', cursive;
-    font-size: 2.5em;
+    font-family: 'Slackey', cursive;
+    font-size: 2em;
     margin-bottom: 30px;
     margin-left:25px;
     padding-bottom:10px;
@@ -130,7 +130,7 @@ h1, h2 {
     background-color: #FDB096;
     color: #f8f9fa;
     display: block;
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Slackey', cursive;
     font-size:3em;
     height: 92px;
     line-height:2px;
@@ -149,7 +149,7 @@ html, body {
 /* contact page elements */
 label {
     color: #b17b69;
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Peralta', cursive;
     margin-bottom: 5px;
 }
 
@@ -165,7 +165,8 @@ label {
 /* paragraph on about me section */
 p {
     color: #97695a;
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Peralta', cursive;
+    font-size: 1.2em;
     line-height: 200%;
     margin-left: 25px;
     margin-bottom:15px;
@@ -177,7 +178,7 @@ p {
     background-position: center;
     color: #f8f9fa;
     font-size:17px;
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Slackey', cursive;
     height:40px;
     line-height:40px;
     position:absolute;
@@ -206,6 +207,8 @@ p {
 #submit {
     background-color: #fc8a64;
     border-radius:0px;
+    font-family: 'Slackey', cursive;
+
 }
 
 @media screen and (max-width: 980px) {
