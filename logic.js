@@ -29,6 +29,7 @@ $("#submit").on("click", function(event) {
       console.log(newContact.email);
       console.log(newContact.message);
     
+      
       // Clears all of the text-boxes
     $("#name").val("");
     $("#email").val("");
