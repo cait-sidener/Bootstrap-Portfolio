@@ -25,28 +25,15 @@ $("#submit").on("click", function(event) {
     
       // Uploads contact data to the database
       database.ref().push(newContact);
-      console.log(newContact.name);
-      console.log(newContact.email);
-      console.log(newContact.message);
+
     
       
       // Clears all of the text-boxes
     $("#name").val("");
     $("#email").val("");
     $("#message").val("");
-  });
+    alert("Thanks! Message sent!")
 
-  database.ref().on("child_added", function(childSnapshot) {
-    console.log(childSnapshot.val());
-  
-    // Store everything into a variable.
-    var contactName = childSnapshot.val().name;
-    var email = childSnapshot.val().email;
-    var message = childSnapshot.val().message;
-  
-    // Contact Info
-    console.log(contactName);
-    console.log(email);
-    console.log(message);
+
 
   });
