@@ -57,8 +57,10 @@ body {
 
 .closeup {
 float:left;
+height: 40%;
 margin-left: 25px;
 margin-right: 25px;
+width:30%;
 }
 
 /*the white box around content for all pages*/
