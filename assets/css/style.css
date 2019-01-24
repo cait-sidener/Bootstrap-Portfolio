@@ -101,9 +101,14 @@ body {
     margin-left: 10px;
 }
 
-.error_show {
-    color: red;
-    margin-left: 10px;
+
+.find-me {
+    align-items: center;
+    color: #b05434;
+    display: flex;
+    font-size: 1.2em;
+    justify-content: center;
+    text-decoration: none;
 }
 
 footer {
@@ -181,6 +186,10 @@ p {
     line-height: 200%;
     margin-left: 25px;
     margin-bottom: 15px;
+}
+
+#personal {
+    margin-top: 2%;
 }
 
 /* portfolio word boxes */

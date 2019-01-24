@@ -34,6 +34,60 @@ $("#submit").on("click", function(event) {
     $("#message").val("");
     alert("Thanks! Message sent!")
 
-
-
   });
+
+  // User Validation
+
+// function validateZipCode(zip) {
+//   // our regular exp...
+//   var zipRegExp = /(^\d{5}$)|(^\d{5}-\d{4}$)/
+
+//   if (zip === '') {
+//       return {
+//           status: false,
+//           error: 'Zipcode field cannot be empty!'
+//       }
+//   }
+
+//   if (!zipRegExp.test(zip)) {
+//       return {
+//           status: false,
+//           error: zip + ' is not a valid zipcode!'
+//       }
+//   }
+
+//   return {
+//       status: true,
+//       error: null
+//   }
+// }
+
+// // Add event listener for on submit event
+// $zipSubmit.on("click", function (evt) {
+//   // Get the value of our zip field
+//   zip = document.getElementById('zip-input').value.trim()
+
+//   // remove any prev error msg
+//   zipError.textContent = ''
+
+//   // use our zip validation function
+//   var isValid = validateZipCode(zip)
+
+//   // check the status of our validation
+//   // notice the ! symbol, if 'is not true' then we execute the if block.
+//   if (!isValid.status) {
+//       // prevent form from been submitted
+//       evt.preventDefault()
+
+//       // show error msg
+//       zipError.textContent = isValid.error
+
+//       // exit the function and prevent form from been submitted in older browsers
+//       return false
+//   }
+
+//   // older browsers need true as return value to submit the form
+//   // return true
+
+//   getWeather();
+// })
