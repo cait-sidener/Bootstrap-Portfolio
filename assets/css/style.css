@@ -1,6 +1,6 @@
 /*keeping links the same color, even when clicked on for nav bar*/
 a {
-    color: #b17b69;
+    color: #000;
     display: block;
     font-family: 'Cinzel', serif;
     font-size: 80%;
@@ -222,7 +222,6 @@ p {
         float: left;
         margin-left: 75px;
     }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -236,7 +235,6 @@ p {
     .container-content {
         margin-top: 20%;
     }
-
 }
 
 @media screen and (max-width: 640px) {
