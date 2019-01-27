@@ -2,13 +2,13 @@
 a {
     color: #b17b69;
     display: block;
-    font-family: 'Peralta', cursive;
+    font-family: 'Cinzel', serif;
     font-size: 80%;
     text-decoration: none;
 }
 
 body {
-    font-family: 'Peralta', cursive;
+    font-family: 'Cinzel', serif;
     /* margin:0;
     padding:0; */
 }
@@ -65,23 +65,24 @@ body {
 
 /*the white box around content for all pages*/
 .container--content {
-    background-color: #fee8e1;
-    border: 1px solid #fc784b;
+    background-color: #fefaef;
+    border: 1px solid #000;
     margin: 30px auto;
     /* width:960px; */
 }
 
 .container--header {
+    font-family: 'Cinzel', serif;
     width: 100%;
 }
 
 /*about, portfolio, contact headers for all pages*/
 .content {
     /* border-collapse: separate; */
-    border-bottom: 2px solid #fc784b;
+    border-bottom: 2px solid #000;
     border-spacing: 15px 50px;
-    color: #fc784b;
-    font-family: 'Slackey', cursive;
+    color: #000;
+    font-family: 'Cinzel', serif;
     font-size: 2em;
     margin-bottom: 30px;
     margin-left: 25px;
@@ -89,22 +90,9 @@ body {
     padding-top: 20px;
 }
 
-/* contact page square text areas */
-#email {
-    border-radius: 0px;
-    color: brown;
-}
-
-/* Contact page required fields */
-.error {
-    display: none;
-    margin-left: 10px;
-}
-
-
 .find-me {
     align-items: center;
-    color: #b05434;
+    color: #000;
     display: flex;
     font-size: 1em;
     justify-content: center;
@@ -114,8 +102,8 @@ body {
 
 footer {
     align-self: flex-end;
-    background-color: #fdb7a0;
-    border-top: #fc784b 10px solid;
+    background-color: #fde5a4;
+    border-top: #000 10px solid;
     bottom: 0;
     height: 40px;
     position: fixed;
@@ -130,30 +118,13 @@ h2 {
 
 /*white box around header */
 .header {
-    background-color: #f8f9fa;
-    /* border: 1px solid #fc784b; */
-    height: 93px;
-    position: relative;
-    width: 100%;
+    background-color: #fefaef;
+    border-bottom: 1px solid #000;
+
 }
 
 .header-col {
     display: flex;
-}
-
-/*my name on each page*/
-.header-title {
-    background-color: #FDB096;
-    color: #f8f9fa;
-    display: block;
-    font-family: 'Slackey', cursive;
-    font-size: 3em;
-    height: 92px;
-    line-height: 2px;
-    overflow: hidden;
-    padding: 20px;
-    position: relative;
-    text-align: center;
 }
 
 /* formatting for footer */
@@ -163,26 +134,15 @@ body {
     margin: 0;
 }
 
-/* contact page elements */
-label {
-    color: #b17b69;
-    font-family: 'Peralta', cursive;
-    margin-bottom: 5px;
-}
-
-/* contact page square text areas */
-#message {
-    border-radius: 0px;
-}
 
 .nav-link {
-    color: #b17b69;
+    color: #000;
 }
 
 /* paragraph on about me section */
 p {
-    color: #97695a;
-    font-family: 'Peralta', cursive;
+    color: #000;
+    font-family: 'Cinzel', serif;
     font-size: 1em;
     line-height: 200%;
     margin-left: 25px;
@@ -195,11 +155,11 @@ p {
 
 /* portfolio word boxes */
 .projects {
-    background-color: #fc8a64;
+    background-color: #fcd468;
     background-position: center;
-    color: #f8f9fa;
+    color: #000;
     font-size: 1em;
-    font-family: 'Slackey', cursive;
+    font-family: 'Cinzel', serif;
     height: 14%;
     padding: 0;
     position: absolute;
@@ -208,11 +168,11 @@ p {
 }
 
 .projects-code {
-    background-color: #fc8a64;
+    background-color: #fcd468;
     background-position: center;
-    color: #f8f9fa;
+    color: #000;
     font-size: 1em;
-    font-family: 'Slackey', cursive;
+    font-family: 'Cinzel', serif;
     height: 14%;
     top: 80%;
     padding: 0;
@@ -239,19 +199,13 @@ p {
     position: relative;
 }
 
-#submit {
-    background-color: #fc8a64;
-    border-radius: 0px;
-    font-family: 'Slackey', cursive;
-}
-
 .vlog-title {
-        background-color: #fc8a64;
+        background-color: #fcd468;
         background-position: center;
-        color: #f8f9fa;
+        color: #000;
         float: left;
         font-size: 1em;
-        font-family: 'Slackey', cursive;
+        font-family: 'Cinzel', serif;
         height: 14%;
         top: 100%;
         padding-top: 1.5%;
@@ -268,6 +222,7 @@ p {
         float: left;
         margin-left: 75px;
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -277,6 +232,9 @@ p {
     .box-6 {
         float: left;
         margin-left: 75px;
+    }
+    .container-content {
+        margin-top: 20%;
     }
 
 }
@@ -288,5 +246,8 @@ p {
     .box-6 {
         float: left;
         margin-left: 75px;
+    }
+    .container-content {
+        margin-top: 20%;
     }
 }
