@@ -38,21 +38,21 @@ $("#submit").on("click", function(event) {
 
   // User Validation
 
-// function validateZipCode(zip) {
+// function validateUserInfo(name) {
 //   // our regular exp...
-//   var zipRegExp = /(^\d{5}$)|(^\d{5}-\d{4}$)/
+//   var nameRegExp = /^[a-zA-Z0-9]+$/
 
-//   if (zip === '') {
+//   if (name === '') {
 //       return {
 //           status: false,
-//           error: 'Zipcode field cannot be empty!'
+//           error: 'Name field cannot be empty!'
 //       }
 //   }
 
-//   if (!zipRegExp.test(zip)) {
+//   if (!nameRegExp.test(name)) {
 //       return {
 //           status: false,
-//           error: zip + ' is not a valid zipcode!'
+//           error: name + ' is not a valid name!'
 //       }
 //   }
 
@@ -63,15 +63,15 @@ $("#submit").on("click", function(event) {
 // }
 
 // // Add event listener for on submit event
-// $zipSubmit.on("click", function (evt) {
+// $nameSubmit.on("click", function (evt) {
 //   // Get the value of our zip field
-//   zip = document.getElementById('zip-input').value.trim()
+//   name = document.getElementById('name').value.trim()
 
 //   // remove any prev error msg
-//   zipError.textContent = ''
+//   nameError.textContent = ''
 
 //   // use our zip validation function
-//   var isValid = validateZipCode(zip)
+//   var isValid = validateName(name)
 
 //   // check the status of our validation
 //   // notice the ! symbol, if 'is not true' then we execute the if block.
@@ -80,7 +80,7 @@ $("#submit").on("click", function(event) {
 //       evt.preventDefault()
 
 //       // show error msg
-//       zipError.textContent = isValid.error
+//       nameError.textContent = isValid.error
 
 //       // exit the function and prevent form from been submitted in older browsers
 //       return false
@@ -88,6 +88,4 @@ $("#submit").on("click", function(event) {
 
 //   // older browsers need true as return value to submit the form
 //   // return true
-
-//   getWeather();
 // })

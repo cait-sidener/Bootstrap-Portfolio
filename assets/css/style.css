@@ -106,17 +106,18 @@ body {
     align-items: center;
     color: #b05434;
     display: flex;
-    font-size: 1.2em;
+    font-size: 1em;
     justify-content: center;
+    margin-top: -.1em;
     text-decoration: none;
 }
 
 footer {
     align-self: flex-end;
     background-color: #fdb7a0;
-    border-top: #fc784b 5px solid;
+    border-top: #fc784b 10px solid;
     bottom: 0;
-    height: 25px;
+    height: 40px;
     position: fixed;
     text-align: center;
     width: 100%
@@ -242,7 +243,21 @@ p {
     background-color: #fc8a64;
     border-radius: 0px;
     font-family: 'Slackey', cursive;
+}
 
+.vlog-title {
+        background-color: #fc8a64;
+        background-position: center;
+        color: #f8f9fa;
+        float: left;
+        font-size: 1em;
+        font-family: 'Slackey', cursive;
+        height: 14%;
+        top: 100%;
+        padding-top: 1.5%;
+        position: absolute;
+        text-align: center;
+        width:320px;
 }
 
 @media screen and (max-width: 980px) {
