@@ -120,11 +120,12 @@ h2 {
 .header {
     background-color: #fefaef;
     border-bottom: 1px solid #000;
-
 }
 
 .header-col {
     display: flex;
+    margin-top: 2%;
+
 }
 
 /* formatting for footer */
