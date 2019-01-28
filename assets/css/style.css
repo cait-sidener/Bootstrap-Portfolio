@@ -57,10 +57,8 @@ body {
 
 .closeup {
     float: left;
-    height: auto;
-    margin-left: 25px;
-    margin-right: 25px;
-    width: 30%;
+    margin-left: 18%;
+    
 }
 
 /*the white box around content for all pages*/
@@ -147,11 +145,12 @@ li a {
 /* paragraph on about me section */
 p {
     color: #000;
+    float: left;
     font-family: 'Cinzel', serif;
     font-size: 1em;
     line-height: 200%;
-    margin-left: 25px;
-    margin-bottom: 15px;
+    margin-left: 8%;
+    padding-top: 8%;
 }
 
 #personal {
@@ -186,6 +185,9 @@ p {
     width: 225px;
 }
 
+.reactions {
+    margin-left: 18%;
+}
 
 ul {
     display: flex;
@@ -203,11 +205,12 @@ ul {
         font-size: 1em;
         font-family: 'Cinzel', serif;
         height: 14%;
-        top: 100%;
+        margin-left: 18%;
         padding-top: 1.5%;
         position: absolute;
         text-align: center;
-        width:320px;
+        top: 100%;
+        width:310px;
 }
 
 @media screen and (max-width: 980px) {
