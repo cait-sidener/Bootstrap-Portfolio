@@ -97,7 +97,7 @@ body {
 .find-me {
     color: #000;
     display: flex;
-    font-size: 1em;
+    font-size: 1.3em;
     justify-content: space-around;
     text-decoration: none;
     width: 100%;
@@ -106,7 +106,7 @@ body {
 footer {
     align-self: flex-end;
     background-color: #fde5a4;
-    border-top: #000 10px solid;
+    border-top: #000 15px solid;
     bottom: 0;
     height: 70px;
     position: fixed;
