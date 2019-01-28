@@ -58,7 +58,13 @@ body {
 .closeup {
     float: left;
     margin-left: 18%;
+    margin-bottom: 5%;
     
+}
+
+.contacts{
+    width: 100%
+
 }
 
 /*the white box around content for all pages*/
@@ -89,13 +95,12 @@ body {
 }
 
 .find-me {
-    align-items: center;
     color: #000;
     display: flex;
     font-size: 1em;
-    justify-content: center;
-    margin-top: -.1em;
+    justify-content: space-around;
     text-decoration: none;
+    width: 100%;
 }
 
 footer {
@@ -103,7 +108,7 @@ footer {
     background-color: #fde5a4;
     border-top: #000 10px solid;
     bottom: 0;
-    height: 40px;
+    height: 70px;
     position: fixed;
     text-align: center;
     width: 100%
