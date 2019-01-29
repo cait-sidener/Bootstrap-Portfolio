@@ -57,8 +57,7 @@ body {
 
 .closeup {
     float: left;
-    margin-left: 18%;
-    margin-bottom: 5%;
+    margin: 10% auto 10% 15%;
     
 }
 
@@ -71,7 +70,7 @@ body {
 .container--content {
     background-color: #fefaef;
     border: 1px solid #000;
-    margin: 30px auto;
+    margin: 30px auto 10%;
     /* width:960px; */
 }
 
@@ -154,8 +153,9 @@ p {
     font-family: 'Cinzel', serif;
     font-size: 1em;
     line-height: 200%;
-    margin-left: 8%;
-    padding-top: 8%;
+    padding-left: 5%;
+    padding-top: 20%;
+
 }
 
 #personal {
