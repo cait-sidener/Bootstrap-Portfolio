@@ -214,7 +214,7 @@ ul {
     position: absolute;
     text-align: center;
     top: 100%;
-    width: 310px;
+    width: 55%;
 }
 
 @media screen and (max-width: 980px) {
@@ -243,14 +243,12 @@ ul {
     .find-me {
         font-size: .7em;
     }
-
-    .header-col {
-        display: flex;
-        margin-top: 2%;
+    .reactions {
+        margin-left: 0%;
+        width: 95%
     }
-
-    li a {
-        font-size: .5em;
+    .vlog-title{
+        display: none;    
     }
 }
 
@@ -270,14 +268,12 @@ ul {
     .find-me {
         font-size: .7em;
     }
-
-    .header-col {
-        display: flex;
-        margin-top: 2%;
+    .reactions {
+        margin-left: 0%;
+        width: 95%
     }
-
-    li a {
-        font-size: .5em;
+    .vlog-title{
+        display: none;    
     }
 }
 
@@ -289,17 +285,14 @@ ul {
         float: left;
         margin-left: 75px;
     }
-
     .find-me {
         font-size: .7em;
     }
-
-    .header-col {
-        display: flex;
-        margin-top: 2%;
+    .reactions {
+        margin-left: 0%;
+        width: 95%;
     }
-
-    li a {
-        font-size: .5em;
+    .vlog-title{
+        display: none;    
     }
 }
