@@ -57,8 +57,9 @@ body {
 
 .closeup {
     float: left;
+    height: 55%;
     margin: 10% auto 10% 15%;
-
+    width: 25%;
 }
 
 .contacts {
@@ -244,6 +245,10 @@ ul {
     .find-me {
         font-size: .7em;
     }
+    p {
+        font-size: .8em;
+        padding-top: 25%;
+    }
     .reactions {
         margin-left: 0%;
         width: 95%
@@ -269,6 +274,10 @@ ul {
     .find-me {
         font-size: .7em;
     }
+    p {
+        font-size: .8em;
+        padding-top: 0%;
+    }
     .reactions {
         margin-left: 0%;
         width: 95%
@@ -292,6 +301,10 @@ ul {
     .reactions {
         margin-left: 0%;
         width: 95%;
+    }
+    p {
+        font-size: .8em;
+        padding-top: 0%;
     }
     .vlog-title{
         display: none;    
