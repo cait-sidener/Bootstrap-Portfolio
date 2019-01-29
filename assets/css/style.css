@@ -226,6 +226,14 @@ ul {
         float: left;
         margin-left: 75px;
     }
+
+    li a {
+        display: block;
+        color: #000;
+        font-size:.5em;
+        text-align: right;
+        text-decoration: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -242,6 +250,14 @@ ul {
     .find-me {
         font-size: .5em;
 }
+    li a {
+        display: block;
+        color: #000;
+        font-size:.5em;
+        text-align: right;
+        text-decoration: none;
+}
+}
 
 @media screen and (max-width: 640px) {
 
@@ -257,6 +273,13 @@ ul {
     .find-me {
         font-size: .5em;
     }
+    li a {
+        display: block;
+        color: #000;
+        font-size:.5em;
+        text-align: right;
+        text-decoration: none;
+    }
 }
 @media screen and (max-width: 320px) {
 
@@ -269,5 +292,11 @@ ul {
     .find-me {
         font-size: .5em;
     }
-}
+    li a {
+        display: block;
+        color: #000;
+        font-size:.5em;
+        text-align: right;
+        text-decoration: none;
+    }
 }
