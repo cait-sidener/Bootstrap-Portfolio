@@ -58,12 +58,11 @@ body {
 .closeup {
     float: left;
     margin: 10% auto 10% 15%;
-    
+
 }
 
-.contacts{
+.contacts {
     width: 100%
-
 }
 
 /*the white box around content for all pages*/
@@ -203,19 +202,19 @@ ul {
 }
 
 .vlog-title {
-        background-color: #fcd468;
-        background-position: center;
-        color: #000;
-        float: left;
-        font-size: 1em;
-        font-family: 'Cinzel', serif;
-        height: 14%;
-        margin-left: 18%;
-        padding-top: 1.5%;
-        position: absolute;
-        text-align: center;
-        top: 100%;
-        width:310px;
+    background-color: #fcd468;
+    background-position: center;
+    color: #000;
+    float: left;
+    font-size: 1em;
+    font-family: 'Cinzel', serif;
+    height: 14%;
+    margin-left: 18%;
+    padding-top: 1.5%;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    width: 310px;
 }
 
 @media screen and (max-width: 980px) {
@@ -225,14 +224,6 @@ ul {
     .box-6 {
         float: left;
         margin-left: 75px;
-    }
-
-    li a {
-        display: block;
-        color: #000;
-        font-size:.5em;
-        text-align: right;
-        text-decoration: none;
     }
 }
 
@@ -244,19 +235,23 @@ ul {
         float: left;
         margin-left: 75px;
     }
+
     .container-content {
         margin-top: 20%;
     }
+
     .find-me {
-        font-size: .5em;
-}
+        font-size: .7em;
+    }
+
+    .header-col {
+        display: flex;
+        margin-top: 2%;
+    }
+
     li a {
-        display: block;
-        color: #000;
-        font-size:.5em;
-        text-align: right;
-        text-decoration: none;
-}
+        font-size: .5em;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -267,20 +262,25 @@ ul {
         float: left;
         margin-left: 75px;
     }
+
     .container-content {
         margin-top: 20%;
     }
+
     .find-me {
+        font-size: .7em;
+    }
+
+    .header-col {
+        display: flex;
+        margin-top: 2%;
+    }
+
+    li a {
         font-size: .5em;
     }
-    li a {
-        display: block;
-        color: #000;
-        font-size:.5em;
-        text-align: right;
-        text-decoration: none;
-    }
 }
+
 @media screen and (max-width: 320px) {
 
     .box-2,
@@ -289,14 +289,17 @@ ul {
         float: left;
         margin-left: 75px;
     }
+
     .find-me {
-        font-size: .5em;
+        font-size: .7em;
     }
+
+    .header-col {
+        display: flex;
+        margin-top: 2%;
+    }
+
     li a {
-        display: block;
-        color: #000;
-        font-size:.5em;
-        text-align: right;
-        text-decoration: none;
+        font-size: .5em;
     }
 }
