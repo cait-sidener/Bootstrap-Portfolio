@@ -57,7 +57,6 @@ body {
 
 .closeup {
     float: left;
-    height: 55%;
     margin: 10% auto 10% 15%;
     width: 25%;
 }
@@ -93,10 +92,12 @@ body {
     padding-top: 20px;
 }
 
+#facetime {
+    margin-top: -3%;
+}
+
 .find-me {
-    color: #000;
     display: flex;
-    font-size: 1.3em;
     justify-content: space-around;
     text-decoration: none;
     width: 100%;
@@ -111,6 +112,10 @@ footer {
     position: fixed;
     text-align: center;
     width: 100%
+}
+
+#gmail {
+    margin-top: -2%;
 }
 
 h1,
@@ -194,6 +199,10 @@ p {
     margin-left: 18%;
 }
 
+.resume {
+    margin-top: -3%;
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -245,9 +254,18 @@ ul {
     .find-me {
         font-size: .7em;
     }
+    .header-col {
+        flex-direction: column;
+    }
+    .header-col ul,
+    .header-col h1 {
+        justify-content: center;
+        text-align: center;
+    }
+
     p {
         font-size: .8em;
-        padding-top: 25%;
+        padding-top:0;
     }
     .reactions {
         margin-left: 0%;
@@ -266,7 +284,7 @@ ul {
         float: left;
         margin-left: 75px;
     }
-
+   
     .container-content {
         margin-top: 20%;
     }
@@ -274,6 +292,7 @@ ul {
     .find-me {
         font-size: .7em;
     }
+ 
     p {
         font-size: .8em;
         padding-top: 0%;
@@ -295,6 +314,7 @@ ul {
         float: left;
         margin-left: 75px;
     }
+
     .find-me {
         font-size: .7em;
     }
