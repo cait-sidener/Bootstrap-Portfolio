@@ -55,6 +55,12 @@ body {
     background-image: url("../images/Project1.png");
 }
 
+.box-7 {
+    background-image: url("../images/bands-in-town.png");
+    margin-left: 75px;
+    margin-bottom: 30px;
+}
+
 .closeup {
     float: left;
     margin: 10% auto 10% 15%;
