@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond" rel="stylesheet">
+
 
     <title>Cait Sidener</title>
 </head>
@@ -48,18 +49,17 @@
     </div>
 
     <div class="container container--content">
-            <div class="row">
-                    <div class="col-md-12" id="headline">
-                        <h2 class="content">Blog</h2> 
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-md-12" id="headline">
+                <h2 class="content">Blog</h2>
+            </div>
+        </div>
         <div class="row">
             <div class="leftcolumn">
                 <div class="card">
                     <h2>MySQL</h2>
-                    <h5>Learning about MySQL at the KU Full Stack Bootcamp, Feb 9, 2019</h5>
-                    <div class="fakeimg"><img class="blog-pic" alt="MySQL"
-                            src="assets/images/MySQL.png"></div>
+                    <h5><strong>Learning about MySQL at the KU Full Stack Bootcamp, Feb 9, 2019</strong></h5>
+                    <div class="fakeimg"><img class="blog-pic" alt="MySQL" src="assets/images/MySQL.png"></div>
                     <p>In class today, I learned about MySQL. Finally, all of my high school years learning how to use
                         Microsof Excel are paying off. Picking up on
                         the commands is intuitive. We started by creating a table
@@ -67,12 +67,17 @@
                         column required and assign individual keys to each row
                         of content.
                     </p>
+                    <p>Adding the rows is a bit more taxing than I was expecting. For each new row, you have to write
+                        "insert into 'table' + 'column title'" and then you indicate the values desired. To view new
+                        values in the table, you then write a new line of code noting which content you would like to
+                        display. In all, it is fairly easy going; however, I feel like the work of typing in the values
+                        is a bit tedious.
+                    </p>
                 </div>
                 <div class="card">
                     <h2>Constructors</h2>
-                    <h5>Learning about Constructors at the KU Full Stack Bootcamp, Feb 2, 2019</h5>
-                    <div class="fakeimg"><img class="blog-pic" alt="I forgot to feed my Tamagotchi when I went to school"
-                        src="assets/images/tamagotchi.jpg"></div>
+                    <h5><strong>Learning about Constructors at the KU Full Stack Bootcamp, Feb 2, 2019</strong></h5>
+                    <div class="fakeimg"><img class="blog-pic" alt="Tamagotchi" src="assets/images/tamagotchi.jpg"></div>
                     <p>Growing up in the aughts meant an unhealthy obsession with Beanie Babies (oh, yeah. I had over
                         200, including TWO Princess Diana’s), a forever battle between loving Backstreet Boys or
                         N’Sync, the mandatory uniform of leggings with foot straps covered with white socks and an
@@ -90,9 +95,37 @@
                         a part of the constructor. Overall, it was a fun day of learning and nostalgia!
                     </p>
                 </div>
+                <div class="card">
+                    <h2>Node JS</h2>
+                    <h5><strong>Learning about Node at the KU Full Stack Bootcamp, Jan 26, 2019</strong></h5>
+                    <div class="fakeimg"><img class="blog-pic" alt="NodeJS" src="assets/images/Nodejs.png"></div>
+                    <p>One of the biggest mistakes I make as a new developer is where to put new files. I’ll just nest
+                        my project here, within twelve folders that are completely unrelated and seem to all start with
+                        the number zero. This decision made my initial experience with Node more difficult than it
+                        needed to be. Everyone else was pulling up their file in the Terminal (yes, Bash, but I’m a
+                        Apple lady) and squealing with delight when they ran their code that console.logged “Hello
+                        World”, while I was still cd’ing into the wrong folders.
+                    </p>
+                    <p>Once I worked out my issues (I literally had to right click on the file and choose “Open in
+                        Terminal”), I was able to experience the magic of Node JS. I felt pretty awesome with that one
+                        console.log, so you can imagine how stoked I was when we moved into reading, writing, and
+                        appending files. For me, the unique concept was incorporating process.argv to require input
+                        from the user. We were also able to use modules.export to link a file to another, which
+                        definitely comes in handy, particularly when hiding API keys.
+                    </p>
+                    <p>Things quickly advanced when we were introduced to JSON packages. We began by creating a simple
+                        inquirer form and moved into using Axios to request data from a website. Learning to initialize
+                        packages and then downloading specific packages related to your project is a crucial tool that
+                        was necessary for the assignment - creating a LIRI program that provides data about songs,
+                        movies, and upcoming concerts. It was a challenging but exciting project that also forced me to
+                        hone my Read.me skills - check it out: <a class="blog-link" target="_blank" href="https://github.com/cait-sidener/liri-node-app"><strong>LIRI</strong></a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
+    <br/>
+    <br/>
 
     <footer>
 

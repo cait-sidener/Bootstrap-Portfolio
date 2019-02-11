@@ -7,6 +7,14 @@ a {
     text-decoration: none;
 }
 
+.blog-link {
+    color: #000;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.3em;
+    text-decoration: none;
+
+}
+
 body {
     font-family: 'Cinzel', serif;
     /* margin:0;
@@ -63,10 +71,10 @@ body {
 /* Add a card effect for articles */
 .card {
     display: flex;
+    font-family: 'EB Garamond', serif;
     padding: 20px;
     margin-bottom: 5%;
     margin-left: 10%;
-    margin-top: 5%;
     width: 75%;
  }
 
