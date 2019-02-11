@@ -340,6 +340,11 @@ h2 {
     animation-iteration-count: 1;
   }
 
+  .hvr-wobble-horizontal:hover {
+      text-decoration: none;
+      color:#000;
+  }
+
 /* formatting for footer */
 html,
 body {
