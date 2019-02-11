@@ -113,7 +113,7 @@ body {
 
 .fakeimg {
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
 
 .find-me {
@@ -453,6 +453,10 @@ ul {
 
     .container-content {
         margin-top: 20%;
+    }
+
+    .blog-pic {
+        width: 100%;
     }
 
     .find-me {
