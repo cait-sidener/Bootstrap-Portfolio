@@ -34,12 +34,6 @@ a {
 
 }
 
-body {
-    font-family: 'Cinzel', serif;
-    /* margin:0;
-    padding:0; */
-}
-
 /* relative positioning in portfolio */
 .box {
     /* position: relative; */
@@ -288,6 +282,8 @@ h2 {
     animation-iteration-count: 1;
   }
 
+  
+
 @-webkit-keyframes hvr-wobble-horizontal {
     16.65% {
       -webkit-transform: translateX(8px);
@@ -382,32 +378,6 @@ li a {
     margin-top: -2.5%;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-    float: left;
-    width: 75%;
-  }
-  
-  /* Right column */
-  .rightcolumn {
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-  }
-
-/* paragraph on about me section
-.p-me {
-    color: #000;
-    float: left;
-    font-family: 'Cinzel', serif;
-    font-size: 1em;
-    line-height: 200%;
-    padding-left: 5%;
-    padding-top: 20%;
-
-} */
-
 #personal {
     margin-top: 2%;
 }
@@ -420,10 +390,15 @@ li a {
     font-size: 1em;
     font-family: 'Cinzel', serif;
     height: 14%;
-    padding: 0;
+    padding: 2;
     position: absolute;
     text-align: center;
     width: 225px;
+}
+
+.projects:hover {
+    color: #000;
+    text-decoration: none;
 }
 
 .projects-code {
@@ -440,6 +415,11 @@ li a {
     width: 225px;
 }
 
+.projects-code:hover {
+    color: #000;
+    text-decoration: none;
+}
+
 .reactions {
     margin-left: 18%;
 }
@@ -449,9 +429,29 @@ li a {
 }
 
 #right {
+    display: flex;
+    justify-content: flex-end;
     position: -webkit-sticky;
     position: sticky;
     top:0
+}
+
+#right2 {
+    display: flex;
+    justify-content: flex-end;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0
+}
+
+.title-link {
+        color: #000;
+        text-decoration: none;
+    }
+
+.title-link:hover {
+    color: #fcd468;
+    text-decoration: none;
 }
 
 ul {
@@ -460,27 +460,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-
-.video {
-    display: flex;
-    justify-content: space-between;
-}
-
-.vlog-title {
-    background-color: #fcd468;
-    background-position: center;
-    color: #000;
-    float: left;
-    font-size: 1em;
-    font-family: 'Cinzel', serif;
-    height: 14%;
-    margin-bottom: 10%;
-    padding-top: 1.5%;
-    position: absolute;
-    text-align: center;
-    top: 100%;
-    width: 55%;
 }
 
 @media screen and (max-width: 980px) {
@@ -526,13 +505,7 @@ ul {
         font-size: .8em;
         padding-top:0;
     }
-    .reactions {
-        margin-left: 0%;
-        width: 95%
-    }
-    .vlog-title{
-        display: none;    
-    }
+    
 }
 
 @media screen and (max-width: 640px) {
@@ -556,13 +529,7 @@ ul {
         font-size: .8em;
         padding-top: 0%;
     }
-    .reactions {
-        margin-left: 0%;
-        width: 95%
-    }
-    .vlog-title{
-        display: none;    
-    }
+    
 }
 
 @media screen and (max-width: 320px) {
@@ -573,19 +540,10 @@ ul {
         float: left;
         margin-left: 75px;
     }
-
-    .find-me {
-        font-size: .7em;
-    }
-    .reactions {
-        margin-left: 0%;
-        width: 95%;
-    }
+    
     p {
         font-size: .8em;
         padding-top: 0%;
     }
-    .vlog-title{
-        display: none;    
-    }
+    
 }
