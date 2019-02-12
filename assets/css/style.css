@@ -7,12 +7,25 @@ a {
     text-decoration: none;
 }
 
+.about {
+    padding-top: 5%;
+    text-align: center;
+}
+
+#about-me {
+    text-align: center;
+}
+
 .blog-link {
     color: #000;
     font-family: 'EB Garamond', serif;
     font-size: 1.3em;
     text-decoration: none;
+}
 
+.blog-link:hover {
+    color: #000;
+    text-decoration: none;
 }
 
 body {
@@ -78,11 +91,10 @@ body {
     width: 75%;
  }
 
-.closeup {
-    float: left;
-    margin: 10% auto 10% 15%;
-    width: 25%;
-}
+ .closeup {
+     height: 80%;
+     width: 80%
+ }
 
 .contacts {
     width: 100%
@@ -364,7 +376,21 @@ li a {
     margin-top: -2.5%;
 }
 
-/* paragraph on about me section */
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+
+/* paragraph on about me section
 .p-me {
     color: #000;
     float: left;
@@ -374,7 +400,7 @@ li a {
     padding-left: 5%;
     padding-top: 20%;
 
-}
+} */
 
 #personal {
     margin-top: 2%;
