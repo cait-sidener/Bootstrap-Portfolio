@@ -96,6 +96,7 @@ a {
      width: 100%
  }
 
+
 .contacts {
     width: 100%
 }
@@ -428,20 +429,16 @@ li a {
     margin-top: -4%;
 }
 
-#right {
-    display: flex;
-    justify-content: flex-end;
+.sticky-menu {
+    
     position: -webkit-sticky;
     position: sticky;
     top:0
 }
 
-#right2 {
+#right {
     display: flex;
     justify-content: flex-end;
-    position: -webkit-sticky;
-    position: sticky;
-    top:0
 }
 
 .title-link {
