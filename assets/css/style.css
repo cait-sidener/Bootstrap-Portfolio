@@ -41,30 +41,23 @@ a {
     width: 225px;
 }
 
-/* relative positioning in portfolio */
 .box-1 {
     background-image: url("../images/Hangman.png");
     margin-left: 75px;
 }
 
-
-/* relative positioning in portfolio */
 .box-2 {
     background-image: url("../images/CrystalsCollector.png");
 }
 
-/* relative positioning in portfolio */
 .box-3 {
     background-image: url("../images/TriviaGame.png");
     margin-left: 75px;
 }
 
-/* relative positioning in portfolio */
 .box-4 {
     background-image: url("../images/GifTastic.png");
 }
-
-/* relative positioning in portfolio */
 
 .box-5 {
     background-image: url("../images/Train Scheduler.png");
@@ -84,6 +77,11 @@ a {
 
 .box-8 {
   background-image: url("../images/productList.png");
+}
+
+.box-9 {
+  background-image:url("../images/friendFinder.png");
+  margin-left: 90px;
 }
 /* Add a card effect for articles */
 .card {
