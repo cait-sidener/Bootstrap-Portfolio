@@ -81,7 +81,12 @@ a {
 
 .box-9 {
   background-image:url("../images/friendFinder.png");
-  margin-left: 90px;
+  margin-left: 75px;
+}
+
+.box-10 {
+  background-image:url("../images/eat-da-burger.png");
+
 }
 /* Add a card effect for articles */
 .card {
