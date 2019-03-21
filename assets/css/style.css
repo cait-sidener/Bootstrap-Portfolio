@@ -86,8 +86,13 @@ a {
 
 .box-10 {
   background-image:url("../images/eat-da-burger.png");
-
 }
+
+.box-11 {
+  background-image:url("../images/studyBuddy.png");
+  margin-left: 75px;
+}
+
 /* Add a card effect for articles */
 .card {
     display: flex;
