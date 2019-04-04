@@ -476,10 +476,12 @@ ul {
     .box-2,
     .box-4,
     .box-6,
-    .box-8 {
+    .box-8,
+    .box-10 {
         float: left;
         margin-left: 75px;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -487,7 +489,8 @@ ul {
     .box-2,
     .box-4,
     .box-6,
-    .box-8 {
+    .box-8,
+    .box-10 {
         float: left;
         margin-left: 75px;
     }
@@ -524,7 +527,8 @@ ul {
     .box-2,
     .box-4,
     .box-6,
-    .box-8 {
+    .box-8,
+    .box-10 {
         float: left;
         margin-left: 75px;
     }
@@ -549,7 +553,8 @@ ul {
     .box-2,
     .box-4,
     .box-6,
-    .box-8 {
+    .box-8,
+    .box-10 {
         float: left;
         margin-left: 75px;
     }
