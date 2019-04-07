@@ -93,6 +93,10 @@ a {
   margin-left: 75px;
 }
 
+.box-11 {
+  background-image:url("../images/savedlist.png");
+}
+
 /* Add a card effect for articles */
 .card {
     display: flex;
