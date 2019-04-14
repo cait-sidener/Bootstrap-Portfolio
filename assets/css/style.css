@@ -93,8 +93,13 @@ a {
   margin-left: 75px;
 }
 
-.box-11 {
+.box-12 {
   background-image:url("../images/savedlist.png");
+}
+
+.box-13 {
+  background-image:url("../images/QueenOfThrones.png");
+  margin-left: 75px;
 }
 
 /* Add a card effect for articles */
