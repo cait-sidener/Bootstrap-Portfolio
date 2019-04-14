@@ -486,7 +486,8 @@ ul {
     .box-4,
     .box-6,
     .box-8,
-    .box-10 {
+    .box-10,
+    .box-12 {
         float: left;
         margin-left: 75px;
     }
@@ -499,7 +500,8 @@ ul {
     .box-4,
     .box-6,
     .box-8,
-    .box-10 {
+    .box-10,
+    .box-12 {
         float: left;
         margin-left: 75px;
     }
@@ -537,7 +539,8 @@ ul {
     .box-4,
     .box-6,
     .box-8,
-    .box-10 {
+    .box-10,
+    .box-12 {
         float: left;
         margin-left: 75px;
     }
@@ -563,7 +566,8 @@ ul {
     .box-4,
     .box-6,
     .box-8,
-    .box-10 {
+    .box-10, 
+    .box-12 {
         float: left;
         margin-left: 75px;
     }
